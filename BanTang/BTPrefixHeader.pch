@@ -1,0 +1,26 @@
+//
+//  BTPrefixHeader.pch
+//  BanTang
+//
+//  Created by LIUYONG on 3/23/16.
+//  Copyright © 2016 WanJianTechnology. All rights reserved.
+//
+
+#ifndef BTPrefixHeader_pch
+#define BTPrefixHeader_pch
+
+
+#define KSCREEN_WIDTH   [UIScreen mainScreen].bounds.size.width
+#define KSCREEN_HEIGHT  [UIScreen mainScreen].bounds.size.height
+#define KSCREEN_SIZE    [UIScreen mainScreen].bounds.size
+#define KSCREEN         [UIScreen mainScreen].bounds
+#define SCALAE          KSCREEN_WIDTH / 320.0
+
+//主题
+#define OCTHEMECOLOR [UIColor colorWithRed:229.f / 255.f green:66.f / 255.f blue:66.f / 255 alpha:1]
+#define OCTHEMELESSCOLOR [UIColor colorWithRed:253.f / 255.f green:185.f / 255.f blue:19.f / 255 alpha:1]
+#define OCTHEMEBACKGROUDCOLOR [UIColor colorWithRed:238.f / 255.f green:238.f / 255.f blue:238.f / 255 alpha:1]
+#define OCLINE [UIColor colorWithRed:226.f / 255.f green:226.f / 255.f blue:226.f / 255.f alpha:1]
+
+
+#endif /* BTPrefixHeader_pch */

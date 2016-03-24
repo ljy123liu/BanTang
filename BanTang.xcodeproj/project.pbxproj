@@ -13,6 +13,12 @@
 		2D32885F1CA25DFB00C2ED2F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D32885E1CA25DFB00C2ED2F /* Assets.xcassets */; };
 		2D3288621CA25DFB00C2ED2F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D3288601CA25DFB00C2ED2F /* LaunchScreen.storyboard */; };
 		2D3288741CA2699500C2ED2F /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D3288731CA2699500C2ED2F /* HomeViewController.m */; };
+		2D3288781CA2B68C00C2ED2F /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D3288771CA2B68C00C2ED2F /* UIView+Extension.m */; };
+		2D32887B1CA2B6F800C2ED2F /* UILabel+LayoutTextRect.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D32887A1CA2B6F800C2ED2F /* UILabel+LayoutTextRect.m */; };
+		2D32887E1CA2BB1200C2ED2F /* UIImageView+ImageSize.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D32887D1CA2BB1200C2ED2F /* UIImageView+ImageSize.m */; };
+		2D3288811CA2BBF300C2ED2F /* UIImageView+InscribedCircle.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D3288801CA2BBF300C2ED2F /* UIImageView+InscribedCircle.m */; };
+		2D3288871CA2EDC600C2ED2F /* UINavigationBar+Transparent.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D3288861CA2EDC600C2ED2F /* UINavigationBar+Transparent.m */; };
+		2D32888D1CA380E500C2ED2F /* UIViewController+CleanNavBarBottomLine.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D32888C1CA380E500C2ED2F /* UIViewController+CleanNavBarBottomLine.m */; };
 		EB2021216A764EE4AA16CB5F /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C2DFEEDB0B207D8AEC815495 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -28,6 +34,18 @@
 		2D3288711CA2674E00C2ED2F /* BTPrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BTPrefixHeader.pch; sourceTree = "<group>"; };
 		2D3288721CA2699500C2ED2F /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
 		2D3288731CA2699500C2ED2F /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		2D3288761CA2B68C00C2ED2F /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		2D3288771CA2B68C00C2ED2F /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		2D3288791CA2B6F800C2ED2F /* UILabel+LayoutTextRect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+LayoutTextRect.h"; sourceTree = "<group>"; };
+		2D32887A1CA2B6F800C2ED2F /* UILabel+LayoutTextRect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+LayoutTextRect.m"; sourceTree = "<group>"; };
+		2D32887C1CA2BB1200C2ED2F /* UIImageView+ImageSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+ImageSize.h"; sourceTree = "<group>"; };
+		2D32887D1CA2BB1200C2ED2F /* UIImageView+ImageSize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+ImageSize.m"; sourceTree = "<group>"; };
+		2D32887F1CA2BBF300C2ED2F /* UIImageView+InscribedCircle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+InscribedCircle.h"; sourceTree = "<group>"; };
+		2D3288801CA2BBF300C2ED2F /* UIImageView+InscribedCircle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+InscribedCircle.m"; sourceTree = "<group>"; };
+		2D3288851CA2EDC600C2ED2F /* UINavigationBar+Transparent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationBar+Transparent.h"; sourceTree = "<group>"; };
+		2D3288861CA2EDC600C2ED2F /* UINavigationBar+Transparent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationBar+Transparent.m"; sourceTree = "<group>"; };
+		2D32888B1CA380E500C2ED2F /* UIViewController+CleanNavBarBottomLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+CleanNavBarBottomLine.h"; sourceTree = "<group>"; };
+		2D32888C1CA380E500C2ED2F /* UIViewController+CleanNavBarBottomLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+CleanNavBarBottomLine.m"; sourceTree = "<group>"; };
 		3705C3F240E2181702DF656A /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		739F438D1AEA8B6EC812E9D4 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		C2DFEEDB0B207D8AEC815495 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -75,6 +93,7 @@
 		2D3288511CA25DFB00C2ED2F /* BanTang */ = {
 			isa = PBXGroup;
 			children = (
+				2D3288751CA2B62F00C2ED2F /* Category */,
 				2D3288701CA2671100C2ED2F /* User */,
 				2D32886F1CA2670B00C2ED2F /* Message */,
 				2D32886E1CA2670200C2ED2F /* Pushlish */,
@@ -159,6 +178,25 @@
 			children = (
 			);
 			name = User;
+			sourceTree = "<group>";
+		};
+		2D3288751CA2B62F00C2ED2F /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				2D3288761CA2B68C00C2ED2F /* UIView+Extension.h */,
+				2D3288771CA2B68C00C2ED2F /* UIView+Extension.m */,
+				2D3288791CA2B6F800C2ED2F /* UILabel+LayoutTextRect.h */,
+				2D32887A1CA2B6F800C2ED2F /* UILabel+LayoutTextRect.m */,
+				2D32887C1CA2BB1200C2ED2F /* UIImageView+ImageSize.h */,
+				2D32887D1CA2BB1200C2ED2F /* UIImageView+ImageSize.m */,
+				2D32887F1CA2BBF300C2ED2F /* UIImageView+InscribedCircle.h */,
+				2D3288801CA2BBF300C2ED2F /* UIImageView+InscribedCircle.m */,
+				2D3288851CA2EDC600C2ED2F /* UINavigationBar+Transparent.h */,
+				2D3288861CA2EDC600C2ED2F /* UINavigationBar+Transparent.m */,
+				2D32888B1CA380E500C2ED2F /* UIViewController+CleanNavBarBottomLine.h */,
+				2D32888C1CA380E500C2ED2F /* UIViewController+CleanNavBarBottomLine.m */,
+			);
+			name = Category;
 			sourceTree = "<group>";
 		};
 		7B97A2B9C1165E1557157AC6 /* Frameworks */ = {
@@ -290,8 +328,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D32888D1CA380E500C2ED2F /* UIViewController+CleanNavBarBottomLine.m in Sources */,
+				2D3288871CA2EDC600C2ED2F /* UINavigationBar+Transparent.m in Sources */,
+				2D32887B1CA2B6F800C2ED2F /* UILabel+LayoutTextRect.m in Sources */,
+				2D32887E1CA2BB1200C2ED2F /* UIImageView+ImageSize.m in Sources */,
+				2D3288811CA2BBF300C2ED2F /* UIImageView+InscribedCircle.m in Sources */,
 				2D3288571CA25DFB00C2ED2F /* AppDelegate.m in Sources */,
 				2D3288541CA25DFB00C2ED2F /* main.m in Sources */,
+				2D3288781CA2B68C00C2ED2F /* UIView+Extension.m in Sources */,
 				2D3288741CA2699500C2ED2F /* HomeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

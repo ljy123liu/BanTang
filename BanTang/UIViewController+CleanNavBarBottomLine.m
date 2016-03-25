@@ -9,7 +9,9 @@
 #import "UIViewController+CleanNavBarBottomLine.h"
 
 @implementation UIViewController (CleanNavBarBottomLine)
+
 - (void)cleanNavBarLine {
+    
     if ([self.navigationController.navigationBar respondsToSelector:@selector(setBackgroundImage:forBarMetrics:)]) {
         NSArray *list = self.navigationController.navigationBar.subviews;
         

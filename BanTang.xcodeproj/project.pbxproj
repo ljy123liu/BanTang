@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2D1B1C0E1CA44DF2009810F9 /* CoutoAnimated.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D1B1C0D1CA44DF2009810F9 /* CoutoAnimated.m */; };
 		2D3288541CA25DFB00C2ED2F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D3288531CA25DFB00C2ED2F /* main.m */; };
 		2D3288571CA25DFB00C2ED2F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D3288561CA25DFB00C2ED2F /* AppDelegate.m */; };
 		2D32885D1CA25DFB00C2ED2F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D32885B1CA25DFB00C2ED2F /* Main.storyboard */; };
@@ -19,10 +20,14 @@
 		2D3288811CA2BBF300C2ED2F /* UIImageView+InscribedCircle.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D3288801CA2BBF300C2ED2F /* UIImageView+InscribedCircle.m */; };
 		2D3288871CA2EDC600C2ED2F /* UINavigationBar+Transparent.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D3288861CA2EDC600C2ED2F /* UINavigationBar+Transparent.m */; };
 		2D32888D1CA380E500C2ED2F /* UIViewController+CleanNavBarBottomLine.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D32888C1CA380E500C2ED2F /* UIViewController+CleanNavBarBottomLine.m */; };
+		2D3288931CA3E71400C2ED2F /* UITabBarController+TabbarImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D3288921CA3E71400C2ED2F /* UITabBarController+TabbarImage.m */; };
+		2DA45BD71CA405F40067148E /* HomeBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DA45BD61CA405F40067148E /* HomeBaseViewController.m */; };
 		EB2021216A764EE4AA16CB5F /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C2DFEEDB0B207D8AEC815495 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2D1B1C0C1CA44DF2009810F9 /* CoutoAnimated.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoutoAnimated.h; sourceTree = "<group>"; };
+		2D1B1C0D1CA44DF2009810F9 /* CoutoAnimated.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoutoAnimated.m; sourceTree = "<group>"; };
 		2D32884F1CA25DFB00C2ED2F /* BanTang.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BanTang.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D3288531CA25DFB00C2ED2F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2D3288551CA25DFB00C2ED2F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -46,6 +51,11 @@
 		2D3288861CA2EDC600C2ED2F /* UINavigationBar+Transparent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationBar+Transparent.m"; sourceTree = "<group>"; };
 		2D32888B1CA380E500C2ED2F /* UIViewController+CleanNavBarBottomLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+CleanNavBarBottomLine.h"; sourceTree = "<group>"; };
 		2D32888C1CA380E500C2ED2F /* UIViewController+CleanNavBarBottomLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+CleanNavBarBottomLine.m"; sourceTree = "<group>"; };
+		2D32888E1CA3E61400C2ED2F /* BaseView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseView.h; sourceTree = "<group>"; };
+		2D3288911CA3E71400C2ED2F /* UITabBarController+TabbarImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITabBarController+TabbarImage.h"; sourceTree = "<group>"; };
+		2D3288921CA3E71400C2ED2F /* UITabBarController+TabbarImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITabBarController+TabbarImage.m"; sourceTree = "<group>"; };
+		2DA45BD51CA405F40067148E /* HomeBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeBaseViewController.h; sourceTree = "<group>"; };
+		2DA45BD61CA405F40067148E /* HomeBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeBaseViewController.m; sourceTree = "<group>"; };
 		3705C3F240E2181702DF656A /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		739F438D1AEA8B6EC812E9D4 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		C2DFEEDB0B207D8AEC815495 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -70,6 +80,15 @@
 				739F438D1AEA8B6EC812E9D4 /* Pods.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		2D1B1C081CA44DAD009810F9 /* CoutoAnimated */ = {
+			isa = PBXGroup;
+			children = (
+				2D1B1C0C1CA44DF2009810F9 /* CoutoAnimated.h */,
+				2D1B1C0D1CA44DF2009810F9 /* CoutoAnimated.m */,
+			);
+			name = CoutoAnimated;
 			sourceTree = "<group>";
 		};
 		2D3288461CA25DFB00C2ED2F = {
@@ -100,7 +119,7 @@
 				2D32886D1CA266F600C2ED2F /* Community */,
 				2D32886C1CA266E700C2ED2F /* Home */,
 				2D32886B1CA266D900C2ED2F /* NetworkRequest */,
-				2D32886A1CA266C400C2ED2F /* BaseView */,
+				2D32886A1CA266C400C2ED2F /* Base */,
 				2D3288691CA2665800C2ED2F /* APP */,
 				2D32885B1CA25DFB00C2ED2F /* Main.storyboard */,
 				2D32885E1CA25DFB00C2ED2F /* Assets.xcassets */,
@@ -129,11 +148,15 @@
 			name = APP;
 			sourceTree = "<group>";
 		};
-		2D32886A1CA266C400C2ED2F /* BaseView */ = {
+		2D32886A1CA266C400C2ED2F /* Base */ = {
 			isa = PBXGroup;
 			children = (
+				2D1B1C081CA44DAD009810F9 /* CoutoAnimated */,
+				2D32888E1CA3E61400C2ED2F /* BaseView.h */,
+				2DA45BD51CA405F40067148E /* HomeBaseViewController.h */,
+				2DA45BD61CA405F40067148E /* HomeBaseViewController.m */,
 			);
-			name = BaseView;
+			name = Base;
 			sourceTree = "<group>";
 		};
 		2D32886B1CA266D900C2ED2F /* NetworkRequest */ = {
@@ -183,6 +206,15 @@
 		2D3288751CA2B62F00C2ED2F /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				2D3288901CA3E6D500C2ED2F /* Controller */,
+				2D32888F1CA3E6BC00C2ED2F /* View */,
+			);
+			name = Category;
+			sourceTree = "<group>";
+		};
+		2D32888F1CA3E6BC00C2ED2F /* View */ = {
+			isa = PBXGroup;
+			children = (
 				2D3288761CA2B68C00C2ED2F /* UIView+Extension.h */,
 				2D3288771CA2B68C00C2ED2F /* UIView+Extension.m */,
 				2D3288791CA2B6F800C2ED2F /* UILabel+LayoutTextRect.h */,
@@ -193,10 +225,19 @@
 				2D3288801CA2BBF300C2ED2F /* UIImageView+InscribedCircle.m */,
 				2D3288851CA2EDC600C2ED2F /* UINavigationBar+Transparent.h */,
 				2D3288861CA2EDC600C2ED2F /* UINavigationBar+Transparent.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		2D3288901CA3E6D500C2ED2F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
 				2D32888B1CA380E500C2ED2F /* UIViewController+CleanNavBarBottomLine.h */,
 				2D32888C1CA380E500C2ED2F /* UIViewController+CleanNavBarBottomLine.m */,
+				2D3288911CA3E71400C2ED2F /* UITabBarController+TabbarImage.h */,
+				2D3288921CA3E71400C2ED2F /* UITabBarController+TabbarImage.m */,
 			);
-			name = Category;
+			name = Controller;
 			sourceTree = "<group>";
 		};
 		7B97A2B9C1165E1557157AC6 /* Frameworks */ = {
@@ -331,12 +372,15 @@
 				2D32888D1CA380E500C2ED2F /* UIViewController+CleanNavBarBottomLine.m in Sources */,
 				2D3288871CA2EDC600C2ED2F /* UINavigationBar+Transparent.m in Sources */,
 				2D32887B1CA2B6F800C2ED2F /* UILabel+LayoutTextRect.m in Sources */,
+				2DA45BD71CA405F40067148E /* HomeBaseViewController.m in Sources */,
 				2D32887E1CA2BB1200C2ED2F /* UIImageView+ImageSize.m in Sources */,
+				2D3288931CA3E71400C2ED2F /* UITabBarController+TabbarImage.m in Sources */,
 				2D3288811CA2BBF300C2ED2F /* UIImageView+InscribedCircle.m in Sources */,
 				2D3288571CA25DFB00C2ED2F /* AppDelegate.m in Sources */,
 				2D3288541CA25DFB00C2ED2F /* main.m in Sources */,
 				2D3288781CA2B68C00C2ED2F /* UIView+Extension.m in Sources */,
 				2D3288741CA2699500C2ED2F /* HomeViewController.m in Sources */,
+				2D1B1C0E1CA44DF2009810F9 /* CoutoAnimated.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
